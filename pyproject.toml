@@ -1,0 +1,14 @@
+[project]
+name = "mlx-pdf-processor"
+version = "0.1.0"
+description = "Processes PDF files using MLX LM. Converts PDFs to markdown format, LLM processing, and outputs structured JSON results."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mlx>=0.8.0",
+    "mlx-lm>=0.22.2",
+    "numpy>=2.2.4",
+    "pymupdf4llm>=0.0.17",
+    "python-dotenv>=1.0.1",
+    "transformers>=4.50.0",
+]

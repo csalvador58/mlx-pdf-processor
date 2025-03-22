@@ -1,0 +1,240 @@
+###############################################################################
+# Python Bytecode, C Extensions, and Cython Debug Symbols
+###############################################################################
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Cython debug symbols
+cython_debug/
+
+###############################################################################
+# Build, Distribution, and Packaging
+###############################################################################
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+###############################################################################
+# PyInstaller, PyBuilder, and Misc Build Files
+###############################################################################
+# PyInstaller: files written from a template before building the exe
+*.manifest
+*.spec
+
+# PyBuilder
+.pybuilder/
+target/
+
+###############################################################################
+# Test, Coverage, and Documentation Artifacts
+###############################################################################
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Testing outputs (Node and Python)
+coverage/
+.nyc_output/
+
+# Sphinx documentation
+docs/_build/
+
+###############################################################################
+# Jupyter and IPython
+###############################################################################
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+###############################################################################
+# Version and Package Management Tools
+###############################################################################
+# pyenv
+# Uncomment if needed: .python-version
+
+# pipenv
+# Uncomment to track Pipfile.lock if desired:
+# Pipfile.lock
+
+# UV: for binary package reproducibility
+# Uncomment if using: uv.lock
+
+# poetry: for reproducibility with binary packages
+# Uncomment if using: poetry.lock
+
+# pdm: project configurations and lock
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582 (e.g. pyflow, pdm)
+__pypackages__/
+
+###############################################################################
+# Environment and Virtual Environments
+###############################################################################
+.env
+.env.local
+.env.*
+!.env.example
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+###############################################################################
+# Framework-Specific Files
+###############################################################################
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+###############################################################################
+# Type Checkers and Linters
+###############################################################################
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+###############################################################################
+# IDEs, Editors, and Project Settings
+###############################################################################
+# PyCharm / JetBrains (global settings can be in a separate file)
+#.idea/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# VSCode
+.vscode/
+
+# Other IDE/editor files
+*.swp
+*.swo
+.directory
+.project
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+###############################################################################
+# OS Generated Files and Xcode
+###############################################################################
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Xcode
+**/build/
+**/DerivedData/
+**/.swiftpm/
+**/xcuserdata
+
+# Windows
+Thumbs.db
+
+###############################################################################
+# Node, NPM, and Related Dependencies/Builds
+###############################################################################
+node_modules/
+**/node_modules
+.pnpm-store/
+
+# Build outputs and TypeScript info
+*.tsbuildinfo
+
+###############################################################################
+# Logs, Temporary, and Debug Files
+###############################################################################
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+
+# Temporary files and caches
+*.tmp
+*.temp
+.cache/
+.debug/
+
+# Miscellaneous temporary build files
+.build/
+
+###############################################################################
+# Miscellaneous Sensitive Data and Other Files
+###############################################################################
+# Sensitive data
+**/GoogleService-Info.plist
+
+# Xcode: User-specific settings
+**/AppData/
+
+# Other custom rules
+.cursorrules
+**/.archive/
